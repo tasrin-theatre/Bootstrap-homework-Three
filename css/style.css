@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* NavBar Part */
+.active {
+    background: coral;
+    color: white!important;
+    border-radius: 25px;
+    padding: 8px 15px!important;
+    margin: 0px 8px;
+    font-weight: normal!important;
+    font-size: 13px!important;
+}
+.cstm {
+    font-size: 30px;
+}
+.cstm:hover {
+    background-color: lightblue;
+}
+/* Header Part Start */
+header {
+    background: url(../img/banner.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 300px;
+    padding-bottom: 150px;
+    background-position-x: center;
+}
+header h1 {
+    font-size: 48px;
+}
+/* Header Part End */
+
+/* Section Part */
+section {
+    background: url(../img/newsletter.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 110px;
+    background-position-x: center;
+}
+.input {
+    position: relative;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 10px 50px;
+    background: transparent;
+    font-weight: bold;
+}
+.input-two {
+    position: relative;
+    right: 55px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background: #fff;
+    padding: 10px 50px;
+    font-weight: bold;
+    color: #AB8A83;
+}
+/* section part end  */
+
+/* Footer Part Start  */
+
+footer {
+    background: url(../img/newsletter.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 110px;
+    background-position-x: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For Mobile Phones */
+    .input-two {
+        position: relative;
+        left: 90px;
+        bottom: 45px;
+        border-radius: 25px;
+        border: 1px solid white;
+        background: #fff;
+        padding: 10px 50px;
+        font-weight: bold;
+        color: #AB8A83;
+    }
+}
